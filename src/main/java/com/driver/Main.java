@@ -1,6 +1,8 @@
 package com.driver;
 //learning git
 public class Main {
-  RWOnly obj=new RWOnly();
-  obj.getName();
+  public static void main(String[] args) {
+    RWOnly obj=new RWOnly();
+    obj.getName();
+  }
 }
